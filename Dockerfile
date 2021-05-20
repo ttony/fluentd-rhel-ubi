@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi8/ruby-27
+FROM registry.access.redhat.com/ubi8/ruby-27:1-28
 
 COPY --chown=1001:root fluent.conf /opt/app-root/etc/fluentd/
 
